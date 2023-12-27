@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Google Tag Manager -->
+    <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WKCKF5X');</script> -->
+    <!-- End Google Tag Manager -->
+
+    <base target="_top">
+    <style>
+    	img {
+    		width: 100px;
+    		height: 100px;
+    	}
+    	.row {
+    		display: flex;
+    		justify-content: right;
+    	}
+    </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E7KXQ87XR7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-E7KXQ87XR7');
+    </script>
+
+    <script>
+      function getCookie(name) {
+        // Split cookie string and get all individual name=value pairs in an array
+        var cookieArr = document.cookie.split(";");
+        
+        // Loop through the array elements
+        for(var i = 0; i < cookieArr.length; i++) {
+            var cookiePair = cookieArr[i].split("=");
+            
+            /* Removing whitespace at the beginning of the cookie name
+            and compare it with the given string */
+            if(name == cookiePair[0].trim()) {
+                // Decode the cookie value and return
+                return decodeURIComponent(cookiePair[1]);
+            }
+        }
+        
+        // Return null if not found
+        return null;
+      }
+    
+    
+      function whatsappClick(){
+        var request = new XMLHttpRequest();
+        request.open("POST", "https://hook.us1.make.com/i3kcj3823m7a9lum19bpb96zpdrd3lko");
+
+        request.setRequestHeader('Content-type', 'application/json');
+
+        var params = {
+        username: "My Webhook Name",
+        avatar_url: "",
+        content: "The message to send"
+        }
+
+        request.send(JSON.stringify(params));
+        document.getElementById("text").style.display = 'block';
+      }
+
+
+
+
+
+    </script>
+
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WKCKF5X"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+    <!-- End Google Tag Manager (noscript) -->
+    <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ante neque, porta eu lacus a, tristique tristique nisi. Suspendisse ullamcorper neque non arcu tincidunt bibendum. Quisque at velit enim. Phasellus sodales commodo diam, id luctus sapien posuere maximus. Suspendisse accumsan velit tempus lacinia interdum. Praesent ornare imperdiet libero. Nam vel metus auctor, faucibus leo eu, pellentesque sapien. Suspendisse dictum mi sit amet nisi euismod tempus. Mauris consequat sem quis purus consectetur faucibus. Quisque id mattis ante, eu sagittis tortor. In hac habitasse platea dictumst. Ut a sodales ipsum. In hac habitasse platea dictumst. Nulla at volutpat leo. Sed augue nisl, semper ut volutpat nec, cursus ornare ante.
+
+        In finibus velit sed libero blandit, in efficitur leo sagittis. Integer id condimentum mi. Vestibulum ullamcorper justo elit, eu posuere sapien dictum et. Praesent eu nibh porta, hendrerit eros id, pretium ante. Maecenas hendrerit euismod consequat. Cras libero enim, tempor id condimentum ac, semper in arcu. Nam est diam, volutpat ac aliquam quis, congue ac mauris. In pretium est sit amet ex molestie gravida. Aliquam hendrerit risus sit amet nunc vulputate, eget rhoncus orci vestibulum. Etiam massa erat, molestie vel sem eu, ullamcorper pulvinar ante. Sed finibus rhoncus libero sit amet scelerisque. Nunc eleifend purus odio, non iaculis purus ultrices a. Ut sagittis dolor interdum tellus porta scelerisque ut quis leo. Cras pretium leo sed dui sollicitudin scelerisque. Sed viverra turpis in quam condimentum, nec sagittis justo efficitur.
+        
+        Morbi sit amet faucibus tellus. Sed vitae elit a erat feugiat fringilla non a sapien. Proin quis mi sollicitudin, mollis tellus eu, iaculis dui. Morbi sit amet mollis risus. Ut ut diam pretium, faucibus lacus ac, gravida massa. Donec euismod odio vitae elit pellentesque ullamcorper. Duis blandit mattis nulla, at consectetur nisl. Sed vitae ipsum at massa egestas dictum sit amet id nunc. Vivamus pretium sapien id tincidunt ullamcorper. Phasellus scelerisque, tellus quis ornare pharetra, orci nisi condimentum nunc, sit amet efficitur neque neque ut odio. Nulla nec faucibus urna. Aenean egestas viverra ligula, a ultrices neque bibendum et. Sed eu lacus fringilla diam dictum varius tristique nec tellus. Nulla non blandit sem. Nunc id convallis turpis.
+        
+        Nunc sodales, urna eu sollicitudin viverra, erat nisl vehicula eros, vel molestie lorem risus at enim. Donec ac rutrum sem. Sed nec ullamcorper purus. Nullam faucibus pretium turpis et convallis. Pellentesque eu turpis eu massa gravida feugiat. Sed dictum, velit in sagittis commodo, est eros consectetur lorem, et imperdiet lorem magna quis neque. Phasellus pellentesque nisl magna, tincidunt dignissim orci tincidunt sagittis. Donec ante magna, bibendum vitae euismod lobortis, maximus sagittis augue. Aenean velit dolor, faucibus vel consequat sit amet, consequat sit amet augue. Integer mattis rhoncus placerat. Integer sed interdum justo.
+        
+        Aenean dapibus ac massa et varius. Ut lorem diam, efficitur id aliquet a, tempus sit amet nulla. Fusce eu mauris non nisi faucibus facilisis. Vestibulum dignissim eu lacus eget molestie. Fusce vel dui dui. Aliquam suscipit fermentum efficitur. Praesent id tempor nulla. Morbi pharetra nulla nisi, a suscipit nisl imperdiet non. Curabitur orci augue, commodo ac consequat ut, commodo sit amet augue. Duis blandit lorem eu felis congue vestibulum. In nec semper justo, eget efficitur nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+        
+        Suspendisse potenti. Integer interdum tincidunt tellus, non laoreet libero pharetra ut. Praesent vehicula, quam et sagittis fringilla, magna ante ultricies mi, a elementum enim arcu ut quam. Quisque laoreet metus nec fermentum auctor. Etiam ut dignissim quam. Nullam eu posuere massa. Nunc sit amet congue lacus. Aenean facilisis ullamcorper lorem, vulputate tempor purus elementum non. Duis sit amet mi tempor, hendrerit justo eget, condimentum turpis.
+        
+        Donec tincidunt purus quis ipsum maximus tempor. Quisque nec augue leo. Sed interdum efficitur sem. Donec sollicitudin blandit tristique. Praesent et odio velit. Curabitur facilisis tincidunt urna ac convallis. Donec laoreet nulla id nisi elementum accumsan.
+        
+        In hac habitasse platea dictumst. Nullam ultrices blandit dui, aliquam porta augue feugiat eu. Cras id odio pretium, malesuada neque eu, porttitor nulla. In convallis vitae mauris vel molestie. Morbi iaculis maximus sollicitudin. Donec tempor tortor eget lacus dapibus fermentum. In efficitur, dui et faucibus pellentesque, nisl purus sagittis nunc, maximus auctor quam turpis in turpis. Curabitur neque massa, scelerisque eget consectetur vitae, blandit quis leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum fringilla, leo imperdiet tristique pellentesque, urna sem faucibus urna, a faucibus libero ipsum quis enim. Duis auctor felis felis, a imperdiet leo imperdiet eget. Pellentesque et nisl elit. Nulla facilisi. Pellentesque egestas quam velit, et gravida risus mollis vitae. Donec laoreet nisl a libero eleifend finibus. Vivamus rutrum rhoncus sapien, in eleifend leo cursus cursus.
+        
+        Donec euismod libero sit amet eros laoreet sollicitudin. Donec ut vestibulum erat. Donec et posuere turpis. Aliquam sit amet mollis leo. Maecenas eu tellus est. Quisque aliquam rhoncus arcu eu accumsan. Fusce eu volutpat diam. In porttitor ultricies fringilla. Vestibulum id nulla at sem mattis laoreet sed ac massa. Proin egestas felis nisl, vel cursus ipsum convallis vitae. Phasellus eget lectus elit.
+        
+        Proin commodo lorem nec libero finibus vestibulum. Cras diam lorem, sodales ac accumsan sit amet, suscipit at turpis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet pharetra tellus. Nulla sagittis eu nisi ut commodo. Suspendisse non nisl tristique, lobortis ex eu, condimentum eros. Duis iaculis ante sit amet dui consequat aliquet. Nam scelerisque sed tortor eget mollis. Ut luctus augue dignissim tellus fringilla placerat. Suspendisse ornare diam eros, eget vehicula purus fermentum ac. Aliquam erat volutpat. Nullam dictum vitae orci auctor mollis. Vivamus auctor vitae mi vel maximus.
+        
+        Maecenas ut quam quis purus rhoncus iaculis in a eros. Maecenas arcu dui, viverra sed magna sed, fermentum euismod nunc. Vestibulum sed rhoncus nibh. Integer enim lorem, pretium et mauris sagittis, gravida ultrices libero. Vestibulum efficitur arcu nec erat congue volutpat. Curabitur vulputate feugiat leo, sit amet mollis neque scelerisque vel. Donec vehicula, quam sed congue tempor, nibh libero convallis sem, id congue ex libero non est. Proin sed neque ipsum. Donec dignissim mattis posuere. Praesent a ipsum orci. Donec a sem consectetur, ultricies neque id, suscipit nulla. Donec eget odio orci.
+        
+        Curabitur arcu elit, porta rhoncus turpis in, vehicula scelerisque eros. Vestibulum elementum condimentum elit, auctor viverra justo mattis non. Proin non velit neque. Praesent ut tortor ipsum. Donec sed vulputate nisl. Nunc id dui et augue pellentesque dignissim. Ut condimentum mi ex, ac iaculis sem tincidunt sed. Nunc aliquam sapien ac arcu vehicula porttitor.</p></div>
+    <div class='row' style="display:none">
+    	<a href='tel:62218565959'>
+    		<img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/FIN_TELECOM.png">
+    	</a>
+    </div>
+    <div class='row' style="border-bottom: solid; overflow: hidden;">
+    	<a href='https://wa.me/6287844754575' target="_blank" onclick="whatsappClick()">
+    		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png" style="float: left">
+    	</a>
+      <p id='text' style="display:none">See on you on Whatsapp!</p>
+    </div>
+  </body>
+</html>
